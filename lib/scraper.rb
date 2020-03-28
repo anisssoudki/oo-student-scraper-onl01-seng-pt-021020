@@ -65,4 +65,5 @@ ef self.scrape_profile_page(profile_url)
     student_profile
   end
 end
+end
 
