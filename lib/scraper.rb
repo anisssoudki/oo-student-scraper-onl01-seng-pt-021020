@@ -18,8 +18,8 @@ class Scraper
    
  end
  students
-p  student_details[:name] = students[0]
-
+student_details[:name] = students[0]
+p student_details
   end
 
   def self.scrape_profile_page(profile_url)
