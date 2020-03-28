@@ -18,7 +18,7 @@ class Scraper
    
  end
  students
-p  student_details[:name].class 
+p  student_details[:name] = students[0]
 
   end
 
