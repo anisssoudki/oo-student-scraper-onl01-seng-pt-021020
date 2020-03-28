@@ -19,6 +19,7 @@ class Scraper
  end
  students
 student_details[:name] = students[0]
+student_details[:name] = students[1]
 p student_details
   end
 
