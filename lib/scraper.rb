@@ -18,9 +18,9 @@ class Scraper
    
  end
  students
-students.each {|student| student_details[:name] = student}
-end
-  p s
+p students.each {|student| student_details[:name] = student}
+
+  
  
  
   end
