@@ -18,7 +18,7 @@ class Scraper
    
  end
  students
-p  student_details[:name] 
+p  student_details[:name].value 
 
   end
 
