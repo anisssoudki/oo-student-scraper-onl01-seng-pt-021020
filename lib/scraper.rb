@@ -17,12 +17,8 @@ class Scraper
    counter = counter + 1 
    
  end
-p students
-index = 0 
-  while index < students.length do 
-     student_details[:name]=[students[index]] 
-   s << student_details
-   index = index + 1 
+ students
+students.each {|student| student_details[:name] = student}
 end
   p s
  
